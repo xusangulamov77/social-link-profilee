@@ -1,0 +1,123 @@
+
+
+body {
+    background-color: #1F1F1F;
+}
+
+.social-links__profile {
+    background-color: #393939;
+    height: 500px;
+    width: 350px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+.profile-info__name {
+    font-size: 20px;
+    margin-left: 120px;
+    font-size: medium;
+    color: white;
+}
+
+.profile-ava__photo {
+    width: 88px;
+    height: 88px;
+    border-radius: 999px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    margin-left: 130px;
+
+}
+
+.profile-info__country {
+    margin-left: 110px;
+    font-size: medium;
+    color: white;
+
+}
+
+.profile-jobs {
+    margin-left: 60px;
+    font-size: medium;
+    color: white;
+}
+
+.profile-social__git {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background-color:  rgb(116, 14, 125);
+    color: #FFF;
+    width: 200px;
+    height: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.profile-social__frontend {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background-color: rgb(116, 14, 125);
+    color: #FFF;
+    width: 200px;
+    height: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.profile-socials__linkedin {
+
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background-color: rgb(116, 14, 125);
+    color: #FFF;
+    width: 200px;
+    height: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.profile-social__telegram {
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background-color: rgb(116, 14, 125);
+    width: 200px;
+    height: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+    color: #FFF;
+
+}
+.profile-social__meta{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    background-color:  rgb(116, 14, 125);
+    color: #FFF;
+    width: 200px;
+    height: 5px;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+
+.profile-socials :hover{
+    color: orange;
+    
+}
